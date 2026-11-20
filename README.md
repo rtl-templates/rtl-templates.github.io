@@ -5,6 +5,7 @@ Free Hebrew (RTL) landing page template, plus live demos of the full kits.
 - **Live demos:** see the GitHub Pages site of this repository
 - **Free template:** [`free-template/`](free-template/) (service business landing page, HTML + CSS, mobile-first)
 - **Full kit, 6 landing pages:** https://payhip.com/b/7Fmgy
+- **Link-in-bio kit, 4 designs:** https://payhip.com/b/xpwfb
 
 ## תבנית דף נחיתה בעברית בחינם
 תבנית HTML ו-CSS בעברית, מימין לשמאל, מותאמת למובייל, עם כפתור וואטסאפ וטופס לידים.
