@@ -6,22 +6,76 @@
 <description>תבניות אתרים בעברית, מימין לשמאל</description>
 <language>he</language>
 <item>
-<title>ערכת דפי נחיתה בעברית: 6 תבניות מוכנות מימין לשמאל</title>
+<title>דף נחיתה בעברית לאפליקציה</title>
+<link>https://rtl-templates.github.io/demos/landing/02-app-startup.html</link>
+<guid>https://rtl-templates.github.io/demos/landing/02-app-startup.html</guid>
+<description>תבנית דף נחיתה בעברית לאפליקציה או מוצר תוכנה: יתרונות, מחירים, שאלות נפוצות וטופס הרשמה. מותאמת למובייל.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/landing-02.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/landing-02.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף נחיתה בעברית לבית קפה</title>
 <link>https://rtl-templates.github.io/demos/landing/03-restaurant-cafe.html</link>
 <guid>https://rtl-templates.github.io/demos/landing/03-restaurant-cafe.html</guid>
-<description>6 דפי נחיתה בעברית, HTML ו-CSS, מותאמים למובייל, עם כפתור וואטסאפ וטופס לידים. לנותני שירות, בית קפה, עורך דין, נדל״ן, סדנה ואפליקציה.</description>
+<description>תבנית אתר לבית קפה או מסעדה: תפריט, שעות פתיחה, ניווט והזמנת שולחן. בעברית ומימין לשמאל.</description>
 <pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
 <enclosure url="https://rtl-templates.github.io/pins/landing-03.jpg" type="image/jpeg" length="0"/>
 <media:content url="https://rtl-templates.github.io/pins/landing-03.jpg" medium="image" type="image/jpeg"/>
 </item>
 <item>
-<title>דף לינק בביו בעברית: 4 עיצובים במקום Linktree</title>
-<link>https://rtl-templates.github.io/demos/link-in-bio/02-bold-gradient.html</link>
-<guid>https://rtl-templates.github.io/demos/link-in-bio/02-bold-gradient.html</guid>
-<description>דף לינק בביו בעברית לאינסטגרם וטיקטוק, בלי מנוי חודשי. 4 עיצובים, מתאים לכל טלפון, עם כפתור וואטסאפ.</description>
+<title>דף לינק בביו לעסק קטן</title>
+<link>https://rtl-templates.github.io/demos/link-in-bio/03-business-warm.html</link>
+<guid>https://rtl-templates.github.io/demos/link-in-bio/03-business-warm.html</guid>
+<description>דף קישורים בעברית לעסק קטן: הזמנות, תפריט, ניווט וביקורות במקום אחד. בלי מנוי חודשי.</description>
 <pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
-<enclosure url="https://rtl-templates.github.io/pins/bio-02.jpg" type="image/jpeg" length="0"/>
-<media:content url="https://rtl-templates.github.io/pins/bio-02.jpg" medium="image" type="image/jpeg"/>
+<enclosure url="https://rtl-templates.github.io/pins/bio-03.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/bio-03.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף נחיתה בעברית לעורך דין</title>
+<link>https://rtl-templates.github.io/demos/landing/04-law-firm.html</link>
+<guid>https://rtl-templates.github.io/demos/landing/04-law-firm.html</guid>
+<description>תבנית דף נחיתה לעורכי דין ויועצים: תחומי עיסוק, המלצות ושיחת ייעוץ. בעברית, מותאמת למובייל.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/landing-04.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/landing-04.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף נחיתה בעברית לפרויקט נדל״ן</title>
+<link>https://rtl-templates.github.io/demos/landing/05-real-estate.html</link>
+<guid>https://rtl-templates.github.io/demos/landing/05-real-estate.html</guid>
+<description>תבנית דף נחיתה לפרויקט נדל״ן: סוגי דירות, מחירים, סביבה וטופס לקבלת מחירון. בעברית ומימין לשמאל.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/landing-05.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/landing-05.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף לינק בביו למאמנים ומטפלים</title>
+<link>https://rtl-templates.github.io/demos/link-in-bio/04-coach-calm.html</link>
+<guid>https://rtl-templates.github.io/demos/link-in-bio/04-coach-calm.html</guid>
+<description>דף קישורים רגוע בעברית למאמני יוגה, כושר ומטפלים. שיעורים, הרשמה ווואטסאפ במקום אחד.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/bio-04.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/bio-04.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף נחיתה בעברית לסדנה או אירוע</title>
+<link>https://rtl-templates.github.io/demos/landing/06-event-workshop.html</link>
+<guid>https://rtl-templates.github.io/demos/landing/06-event-workshop.html</guid>
+<description>תבנית דף נחיתה לסדנה או אירוע: תוכנית, כרטיסים, ספירה לאחור וטופס הרשמה. בעברית, מותאמת למובייל.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/landing-06.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/landing-06.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף לינק בביו בעברית למעצבים</title>
+<link>https://rtl-templates.github.io/demos/link-in-bio/01-minimal-light.html</link>
+<guid>https://rtl-templates.github.io/demos/link-in-bio/01-minimal-light.html</guid>
+<description>דף קישורים נקי ובהיר בעברית למעצבים ויוצרים. תיק עבודות, מדריכים וקביעת שיחה במקום אחד.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/bio-01.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/bio-01.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
