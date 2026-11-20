@@ -1,0 +1,218 @@
+/* ==========================================================
+   ערכת דפי נחיתה בעברית — קובץ עיצוב משותף
+   כל הצבעים והגופנים מוגדרים במשתנים למטה. שנו אותם כדי
+   להתאים את הדף למותג שלכם.
+   ========================================================== */
+
+:root {
+  --brand: #2f5bea;          /* צבע ראשי */
+  --brand-dark: #1d3fb3;     /* צבע ראשי כהה (ריחוף על כפתור) */
+  --accent: #ffb547;         /* צבע משני להדגשות */
+  --ink: #14161f;            /* טקסט ראשי */
+  --muted: #5d6475;          /* טקסט משני */
+  --bg: #ffffff;             /* רקע */
+  --surface: #f5f7fb;        /* רקע לאזורים מובלטים */
+  --line: #e3e7ef;           /* קווי הפרדה */
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(20, 22, 31, 0.08);
+  --font: "Heebo", "Assistant", "Segoe UI", Arial, sans-serif;
+  --max: 1120px;
+}
+
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--bg);
+  line-height: 1.65;
+  font-size: 17px;
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { color: var(--brand); text-decoration: none; }
+
+.container { width: min(var(--max), 100% - 32px); margin-inline: auto; }
+
+/* ---------- כותרת עליונה ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 50;
+  background: color-mix(in srgb, var(--bg) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--line);
+}
+.site-header .container {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 16px; min-height: 68px;
+}
+.logo { font-weight: 800; font-size: 22px; color: var(--ink); }
+.logo span { color: var(--brand); }
+.nav { display: flex; gap: 28px; }
+.nav a { color: var(--muted); font-weight: 500; }
+.nav a:hover { color: var(--ink); }
+
+/* ---------- כפתורים ---------- */
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  padding: 13px 26px; border-radius: 999px; font-weight: 700; font-size: 16px;
+  border: 2px solid transparent; cursor: pointer; transition: .2s ease;
+  font-family: inherit;
+}
+.btn-primary { background: var(--brand); color: #fff; }
+.btn-primary:hover { background: var(--brand-dark); }
+.btn-ghost { border-color: var(--line); color: var(--ink); background: transparent; }
+.btn-ghost:hover { border-color: var(--ink); }
+
+/* ---------- אזור פתיחה ---------- */
+.hero { padding: 88px 0 72px; }
+.hero .container {
+  display: grid; grid-template-columns: 1.1fr .9fr; gap: 56px; align-items: center;
+}
+.eyebrow {
+  display: inline-block; padding: 6px 14px; border-radius: 999px;
+  background: color-mix(in srgb, var(--brand) 10%, transparent);
+  color: var(--brand); font-weight: 700; font-size: 14px; margin-bottom: 18px;
+}
+.hero h1 { font-size: clamp(34px, 5vw, 56px); line-height: 1.15; margin: 0 0 18px; font-weight: 800; }
+.hero h1 em { font-style: normal; color: var(--brand); }
+.hero p.lead { font-size: 20px; color: var(--muted); margin: 0 0 30px; max-width: 34ch; }
+.hero .actions { display: flex; gap: 12px; flex-wrap: wrap; }
+.hero .proof { margin-top: 28px; color: var(--muted); font-size: 15px; display: flex; gap: 18px; flex-wrap: wrap; }
+.hero .proof strong { color: var(--ink); }
+
+.hero-visual {
+  aspect-ratio: 4 / 4.4; border-radius: 28px; box-shadow: var(--shadow);
+  background:
+    radial-gradient(circle at 30% 20%, color-mix(in srgb, var(--accent) 70%, transparent), transparent 45%),
+    linear-gradient(135deg, var(--brand), var(--brand-dark));
+  position: relative; overflow: hidden;
+}
+.hero-visual .card {
+  position: absolute; inset-inline: 10%; background: #fff; border-radius: 16px;
+  padding: 18px 20px; box-shadow: var(--shadow); font-size: 15px;
+}
+.hero-visual .card b { display: block; font-size: 22px; }
+.hero-visual .card.one { top: 14%; }
+.hero-visual .card.two { bottom: 14%; inset-inline: 22% 6%; }
+
+/* ---------- אזורים כלליים ---------- */
+section { padding: 80px 0; }
+.section-alt { background: var(--surface); }
+.section-head { text-align: center; max-width: 640px; margin: 0 auto 48px; }
+.section-head h2 { font-size: clamp(28px, 3.6vw, 40px); margin: 0 0 12px; line-height: 1.2; }
+.section-head p { color: var(--muted); margin: 0; font-size: 18px; }
+
+/* ---------- רשת יתרונות ---------- */
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.feature {
+  background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius);
+  padding: 28px;
+}
+.feature .icon {
+  width: 48px; height: 48px; border-radius: 12px; display: grid; place-items: center;
+  background: color-mix(in srgb, var(--brand) 12%, transparent); color: var(--brand);
+  font-size: 22px; margin-bottom: 16px;
+}
+.feature h3 { margin: 0 0 8px; font-size: 20px; }
+.feature p { margin: 0; color: var(--muted); }
+
+/* ---------- שלבים ---------- */
+.steps { counter-reset: step; display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; }
+.step { position: relative; padding-top: 56px; }
+.step::before {
+  counter-increment: step; content: counter(step);
+  position: absolute; top: 0; inset-inline-start: 0;
+  width: 42px; height: 42px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--brand); color: #fff; font-weight: 800;
+}
+.step h3 { margin: 0 0 6px; }
+.step p { margin: 0; color: var(--muted); }
+
+/* ---------- המלצות ---------- */
+.quote {
+  background: var(--bg); border-radius: var(--radius); padding: 28px; box-shadow: var(--shadow);
+  display: flex; flex-direction: column; gap: 18px;
+}
+.quote p { margin: 0; font-size: 18px; }
+.quote .who { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 15px; }
+.avatar {
+  width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center;
+  background: var(--accent); color: var(--ink); font-weight: 800;
+}
+.quote .who strong { color: var(--ink); display: block; }
+
+/* ---------- מחירים ---------- */
+.pricing { display: grid; grid-template-columns: repeat(3, 1fr); gap: 22px; align-items: stretch; }
+.plan {
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 32px;
+  display: flex; flex-direction: column; gap: 14px; background: var(--bg);
+}
+.plan.featured { border: 2px solid var(--brand); box-shadow: var(--shadow); position: relative; }
+.plan.featured::before {
+  content: "הכי פופולרי"; position: absolute; top: -14px; inset-inline-start: 24px;
+  background: var(--brand); color: #fff; font-size: 13px; font-weight: 700;
+  padding: 4px 12px; border-radius: 999px;
+}
+.plan h3 { margin: 0; font-size: 20px; }
+.price { font-size: 42px; font-weight: 800; line-height: 1; }
+.price small { font-size: 16px; color: var(--muted); font-weight: 500; }
+.plan ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 10px; color: var(--muted); }
+.plan li::before { content: "✓"; color: var(--brand); font-weight: 800; margin-inline-end: 8px; }
+.plan .btn { margin-top: auto; }
+
+/* ---------- שאלות נפוצות ---------- */
+.faq { max-width: 760px; margin: 0 auto; display: grid; gap: 12px; }
+.faq details {
+  border: 1px solid var(--line); border-radius: var(--radius); padding: 18px 22px; background: var(--bg);
+}
+.faq summary { cursor: pointer; font-weight: 700; font-size: 18px; list-style: none; display: flex; justify-content: space-between; gap: 12px; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--brand); font-size: 22px; line-height: 1; }
+.faq details[open] summary::after { content: "−"; }
+.faq details p { margin: 12px 0 0; color: var(--muted); }
+
+/* ---------- קריאה לפעולה + טופס ---------- */
+.cta {
+  background: linear-gradient(135deg, var(--brand), var(--brand-dark)); color: #fff;
+  border-radius: 28px; padding: 56px; display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center;
+}
+.cta h2 { margin: 0 0 10px; font-size: clamp(28px, 3.4vw, 38px); line-height: 1.2; }
+.cta p { margin: 0; opacity: .9; font-size: 18px; }
+.form { display: grid; gap: 12px; }
+.form input, .form select, .form textarea {
+  width: 100%; padding: 14px 16px; border-radius: 12px; border: 0; font: inherit; font-size: 16px;
+  color: var(--ink); background: #fff;
+}
+.form .btn { background: var(--ink); color: #fff; }
+.form .btn:hover { background: #000; }
+.form .note { font-size: 13px; opacity: .8; margin: 0; }
+
+/* ---------- כותרת תחתונה ---------- */
+.site-footer { border-top: 1px solid var(--line); padding: 32px 0; color: var(--muted); font-size: 15px; }
+.site-footer .container { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
+
+/* ---------- כפתור וואטסאפ צף ---------- */
+.whatsapp {
+  position: fixed; bottom: 20px; inset-inline-start: 20px; z-index: 60;
+  width: 56px; height: 56px; border-radius: 50%; background: #25d366; color: #fff;
+  display: grid; place-items: center; box-shadow: var(--shadow);
+}
+.whatsapp svg { width: 28px; height: 28px; }
+
+/* ---------- מובייל ---------- */
+@media (max-width: 900px) {
+  .hero { padding: 48px 0; }
+  .hero .container, .cta { grid-template-columns: 1fr; }
+  .hero-visual { aspect-ratio: auto; padding: 28px 18px; display: grid; gap: 14px; }
+  .hero-visual .card, .hero-visual .card.two { position: static; inset: auto; }
+  .grid-3, .steps, .pricing { grid-template-columns: 1fr; }
+  .nav { display: none; }
+  section { padding: 56px 0; }
+  .cta { padding: 32px 22px; }
+}

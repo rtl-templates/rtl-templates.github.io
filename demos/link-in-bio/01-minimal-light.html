@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>נועה כהן | עיצוב גרפי</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <style>
+    /* ===== שנו כאן את הצבעים ===== */
+    :root {
+      --bg: #f7f5f2;
+      --card: #ffffff;
+      --ink: #1d1d1f;
+      --muted: #6e6e73;
+      --brand: #1d1d1f;
+      --btn-ink: #ffffff;
+      --line: #e8e5e0;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; background: var(--bg); color: var(--ink); font-family: "Heebo", Arial, sans-serif; display: flex; justify-content: center; padding: 48px 16px; }
+    main { width: 100%; max-width: 480px; text-align: center; }
+    .avatar { width: 104px; height: 104px; border-radius: 50%; margin: 0 auto 16px; display: grid; place-items: center; font-size: 44px; font-weight: 800; background: var(--brand); color: var(--btn-ink); border: 4px solid var(--card); box-shadow: 0 8px 24px rgba(0,0,0,.12); }
+    /* כדי לשים תמונה: <img class="avatar" src="me.jpg" alt=""> במקום ה-div */
+    img.avatar { object-fit: cover; }
+    h1 { margin: 0 0 6px; font-size: 26px; font-weight: 800; }
+    .bio { margin: 0 0 28px; color: var(--muted); font-size: 16px; line-height: 1.6; }
+    .links { display: grid; gap: 12px; }
+    .link { display: flex; align-items: center; gap: 14px; padding: 14px 18px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); color: var(--ink); text-decoration: none; text-align: right; transition: transform .15s ease, border-color .15s ease; }
+    .link:hover { transform: translateY(-2px); border-color: var(--brand); }
+    .ic { font-size: 24px; width: 40px; height: 40px; display: grid; place-items: center; border-radius: 12px; background: color-mix(in srgb, var(--brand) 14%, transparent); flex: none; }
+    .tx { flex: 1; display: grid; }
+    .tx b { font-size: 16px; }
+    .tx small { color: var(--muted); font-size: 14px; }
+    .ar { color: var(--brand); font-weight: 800; }
+    .cta { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 18px; padding: 15px; border-radius: 999px; background: var(--brand); color: var(--btn-ink); font-weight: 800; text-decoration: none; }
+    .cta svg { width: 22px; height: 22px; }
+    .social { display: flex; justify-content: center; gap: 18px; margin-top: 26px; }
+    .social a { color: var(--muted); text-decoration: none; font-weight: 700; font-size: 14px; }
+    footer { margin-top: 30px; color: var(--muted); font-size: 13px; }
+  </style>
+</head>
+<body>
+<div style="position:fixed;top:0;left:0;right:0;z-index:999;background:#14161f;color:#fff;font:600 14px Heebo,Arial,sans-serif;text-align:center;padding:8px 12px">זו תבנית לדוגמה מתוך RTL Templates · <a href="https://payhip.com/b/7Fmgy" style="color:#ffd166">לקבלת כל התבניות ←</a> · <a href="../../" style="color:#c9cee0">לכל הדוגמאות</a></div><div style="height:38px"></div>
+  <main>
+    <div class="avatar" aria-hidden="true">נ</div>
+    <h1>נועה כהן</h1>
+    <p class="bio">מעצבת גרפית ומאיירת · מלמדת עיצוב בקנבה</p>
+
+    <nav class="links">
+      <a class="link" href="#"><span class="ic">📘</span><span class="tx"><b>המדריך החינמי: 10 טעויות בעיצוב לוגו</b><small>מדריך PDF להורדה</small></span><span class="ar">←</span></a>
+      <a class="link" href="#"><span class="ic">🎨</span><span class="tx"><b>קורס קנבה למתחילים</b><small>השקה בחודש הבא · הרשמה מוקדמת</small></span><span class="ar">←</span></a>
+      <a class="link" href="#"><span class="ic">💼</span><span class="tx"><b>תיק עבודות</b><small>לוגואים, מיתוג והזמנות</small></span><span class="ar">←</span></a>
+      <a class="link" href="#"><span class="ic">📅</span><span class="tx"><b>לקביעת שיחת היכרות</b><small>15 דקות, בלי התחייבות</small></span><span class="ar">←</span></a>
+    </nav>
+
+    <!-- החליפו את המספר בפורמט בינלאומי, בלי 0 בהתחלה -->
+    <a class="cta" href="https://wa.me/972500000000"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Z"/></svg> לשליחת הודעה בוואטסאפ</a>
+
+    <div class="social">
+      <a href="#">אינסטגרם</a>
+      <a href="#">טיקטוק</a>
+      <a href="#">יוטיוב</a>
+      <a href="#">פייסבוק</a>
+    </div>
+    <footer>© נועה כהן</footer>
+  </main>
+</body>
+</html>

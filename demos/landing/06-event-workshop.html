@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+  <meta name="robots" content="noindex">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>סדנת צילום בטלפון | יום שישי, תל אביב</title>
+  <meta name="description" content="סדנה מעשית של 4 שעות: איך לצלם תמונות מקצועיות עם הטלפון. מספר המקומות מוגבל.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <style>
+    /* צבעי המותג של הדף הזה */
+    :root { --brand: #d6336c; --brand-dark: #a61e4d; --accent: #ffd43b; }
+    .countdown { display: flex; gap: 12px; margin-top: 26px; }
+    .countdown div { background: var(--surface); border-radius: 12px; padding: 10px 14px; text-align: center; min-width: 70px; }
+    .countdown b { display: block; font-size: 28px; line-height: 1.1; color: var(--brand); }
+    .countdown span { font-size: 13px; color: var(--muted); }
+    .agenda { max-width: 760px; margin: 0 auto; display: grid; gap: 12px; }
+    .slot { display: grid; grid-template-columns: 110px 1fr; gap: 18px; padding: 18px 22px; background: var(--bg); border: 1px solid var(--line); border-radius: var(--radius); }
+    .slot time { font-weight: 800; color: var(--brand); }
+    .slot h3 { margin: 0 0 4px; font-size: 18px; }
+    .slot p { margin: 0; color: var(--muted); }
+    @media (max-width: 600px) { .slot { grid-template-columns: 1fr; gap: 4px; } }
+  </style>
+</head>
+<body>
+<div style="position:fixed;top:0;left:0;right:0;z-index:999;background:#14161f;color:#fff;font:600 14px Heebo,Arial,sans-serif;text-align:center;padding:8px 12px">זו תבנית לדוגמה מתוך RTL Templates · <a href="https://payhip.com/b/7Fmgy" style="color:#ffd166">לקבלת כל התבניות ←</a> · <a href="../../" style="color:#c9cee0">לכל הדוגמאות</a></div><div style="height:38px"></div><style>.site-header{top:38px}</style>
+
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">צילום<span>בכיס</span></a>
+      <nav class="nav">
+        <a href="#agenda">תוכנית</a>
+        <a href="#host">המנחה</a>
+        <a href="#faq">שאלות</a>
+      </nav>
+      <a class="btn btn-primary" href="#tickets">להרשמה</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div>
+          <span class="eyebrow">שישי · 10:00–14:00 · תל אביב</span>
+          <h1>לצלם כמו מקצוען, <em>רק עם הטלפון</em></h1>
+          <p class="lead">סדנה מעשית של 4 שעות בקבוצה קטנה. יוצאים עם 20 תמונות שאתם גאים בהן, וידע שנשאר לתמיד.</p>
+          <div class="actions">
+            <a class="btn btn-primary" href="#tickets">לשריון מקום</a>
+            <a class="btn btn-ghost" href="#agenda">מה לומדים</a>
+          </div>
+          <!-- עדכנו את התאריך בשורה data-date למטה -->
+          <div class="countdown" id="countdown" data-date="2026-12-25T10:00:00+02:00">
+            <div><b id="d">--</b><span>ימים</span></div>
+            <div><b id="h">--</b><span>שעות</span></div>
+            <div><b id="m">--</b><span>דקות</span></div>
+          </div>
+        </div>
+        <div class="hero-visual" role="img" aria-label="איור דקורטיבי">
+          <div class="card one"><b>12 משתתפים בלבד</b>כל אחד מקבל יחס אישי</div>
+          <div class="card two"><b>נשארו 5 מקומות</b>ההרשמה נסגרת ביום רביעי</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="agenda" class="section-alt">
+      <div class="container">
+        <div class="section-head"><h2>תוכנית הסדנה</h2><p>הרבה תרגול, מעט תיאוריה.</p></div>
+        <div class="agenda">
+          <div class="slot"><time>10:00</time><div><h3>אור וקומפוזיציה</h3><p>הכללים שהופכים תמונה רגילה לתמונה שעוצרת גלילה.</p></div></div>
+          <div class="slot"><time>11:00</time><div><h3>יציאה לשטח</h3><p>מצלמים יחד ברחובות נווה צדק, עם הכוונה צמודה.</p></div></div>
+          <div class="slot"><time>12:30</time><div><h3>עריכה בטלפון</h3><p>אפליקציות חינמיות ופילטרים שנראים טבעיים.</p></div></div>
+          <div class="slot"><time>13:30</time><div><h3>משוב אישי</h3><p>עוברים על התמונות של כל אחד ונותנים טיפים.</p></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="host">
+      <div class="container">
+        <div class="section-head"><h2>מה אומרים משתתפים</h2></div>
+        <div class="grid-3">
+          <div class="quote"><p>״לא האמנתי שהתמונות האלה צולמו בטלפון שלי.״</p><div class="who"><span class="avatar">נ</span><span><strong>נועה פ.</strong>מחזור מרץ</span></div></div>
+          <div class="quote"><p>״הכי שווה 4 שעות שהשקעתי השנה. כיף ופרקטי.״</p><div class="who"><span class="avatar">ת</span><span><strong>תומר א.</strong>מחזור יוני</span></div></div>
+          <div class="quote"><p>״הטיפים לעריכה לבד שווים את המחיר.״</p><div class="who"><span class="avatar">ה</span><span><strong>הילה ק.</strong>מחזור ספטמבר</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="tickets" class="section-alt">
+      <div class="container">
+        <div class="section-head"><h2>כרטיסים</h2></div>
+        <div class="pricing">
+          <div class="plan"><h3>הרשמה מוקדמת</h3><div class="price">290 ₪</div><ul><li>עד 10 ימים לפני</li><li>כולל קפה ומאפה</li></ul><a class="btn btn-ghost" href="#contact">להרשמה</a></div>
+          <div class="plan featured"><h3>כרטיס רגיל</h3><div class="price">340 ₪</div><ul><li>4 שעות סדנה</li><li>קובץ סיכום להורדה</li><li>קבוצת וואטסאפ למשתתפים</li></ul><a class="btn btn-primary" href="#contact">לשריון מקום</a></div>
+          <div class="plan"><h3>זוג</h3><div class="price">580 ₪</div><ul><li>שני כרטיסים</li><li>חיסכון של 100 ₪</li></ul><a class="btn btn-ghost" href="#contact">להרשמה זוגית</a></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="container">
+        <div class="section-head"><h2>שאלות נפוצות</h2></div>
+        <div class="faq">
+          <details open><summary>איזה טלפון צריך?</summary><p>כל סמארטפון מהשנים האחרונות, אייפון או אנדרואיד.</p></details>
+          <details><summary>מה אם אני לא יכול להגיע?</summary><p>עד 72 שעות לפני מחזירים את מלוא הכסף, או מעבירים למחזור הבא.</p></details>
+          <details><summary>איפה בדיוק הסדנה?</summary><p>הכתובת המדויקת נשלחת בוואטסאפ אחרי ההרשמה.</p></details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="cta">
+          <div><h2>שומרים לך מקום</h2><p>משאירים פרטים, ושולחים לך קישור תשלום מאובטח.</p></div>
+          <form class="form" action="#" method="post">
+            <input name="name" placeholder="שם מלא" required>
+            <input name="phone" type="tel" placeholder="טלפון" required>
+            <select name="ticket"><option>הרשמה מוקדמת</option><option>כרטיס רגיל</option><option>זוג</option></select>
+            <button class="btn" type="submit">לשריון מקום</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <span>© צילום בכיס</span>
+      <span>050-000-0000</span>
+    </div>
+  </footer>
+
+  <script>
+    // ספירה לאחור לתאריך הסדנה
+    (function () {
+      var el = document.getElementById('countdown');
+      var target = new Date(el.dataset.date).getTime();
+      function tick() {
+        var diff = Math.max(0, target - Date.now());
+        document.getElementById('d').textContent = Math.floor(diff / 864e5);
+        document.getElementById('h').textContent = Math.floor(diff / 36e5) % 24;
+        document.getElementById('m').textContent = Math.floor(diff / 6e4) % 60;
+      }
+      tick(); setInterval(tick, 30000);
+    })();
+  </script>
+</body>
+</html>
