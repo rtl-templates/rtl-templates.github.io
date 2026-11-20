@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+<channel>
+<title>RTL Templates</title>
+<link>https://rtl-templates.github.io/</link>
+<description>תבניות אתרים בעברית, מימין לשמאל</description>
+<language>he</language>
+<item>
+<title>ערכת דפי נחיתה בעברית: 6 תבניות מוכנות מימין לשמאל</title>
+<link>https://rtl-templates.github.io/demos/landing/03-restaurant-cafe.html</link>
+<guid>https://rtl-templates.github.io/demos/landing/03-restaurant-cafe.html</guid>
+<description>6 דפי נחיתה בעברית, HTML ו-CSS, מותאמים למובייל, עם כפתור וואטסאפ וטופס לידים. לנותני שירות, בית קפה, עורך דין, נדל״ן, סדנה ואפליקציה.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/landing-03.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/landing-03.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+<title>דף לינק בביו בעברית: 4 עיצובים במקום Linktree</title>
+<link>https://rtl-templates.github.io/demos/link-in-bio/02-bold-gradient.html</link>
+<guid>https://rtl-templates.github.io/demos/link-in-bio/02-bold-gradient.html</guid>
+<description>דף לינק בביו בעברית לאינסטגרם וטיקטוק, בלי מנוי חודשי. 4 עיצובים, מתאים לכל טלפון, עם כפתור וואטסאפ.</description>
+<pubDate>Fri, 20 Nov 2026 06:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/bio-02.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/bio-02.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
