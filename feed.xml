@@ -6,6 +6,15 @@
 <description>תבניות אתרים בעברית, מימין לשמאל</description>
 <language>he</language>
 <item>
+<title>חתימות מייל בעברית ל-Gmail ול-Outlook</title>
+<link>https://rtl-templates.github.io/demos/email-signatures/</link>
+<guid>https://rtl-templates.github.io/demos/email-signatures/</guid>
+<description>6 חתימות מייל בעברית, מימין לשמאל, עם כפתור וואטסאפ. מעתיקים, מדביקים ב-Gmail, וזהו.</description>
+<pubDate>Fri, 20 Nov 2026 07:00:00 +0200</pubDate>
+<enclosure url="https://rtl-templates.github.io/pins/sig-01.jpg" type="image/jpeg" length="0"/>
+<media:content url="https://rtl-templates.github.io/pins/sig-01.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
 <title>דף נחיתה בעברית לאפליקציה</title>
 <link>https://rtl-templates.github.io/demos/landing/02-app-startup.html</link>
 <guid>https://rtl-templates.github.io/demos/landing/02-app-startup.html</guid>
